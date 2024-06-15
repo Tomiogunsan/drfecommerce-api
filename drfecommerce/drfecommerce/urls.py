@@ -11,9 +11,7 @@ router.register(r"category", views.CategoryViewSet)
 router.register(r"brand", views.BrandViewSet)
 router.register(r"product", views.ProductViewSet)
 
-def get_total_price(self):
-        return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
-    
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
