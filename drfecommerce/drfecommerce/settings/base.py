@@ -28,11 +28,15 @@ INSTALLED_APPS = [
     #external packages
     'rest_framework',
     "drf_spectacular",
-    "corsheaders"
+    "corsheaders",
+   
     
     #internal apps
-    "drfecommerce.product"
-    "drfecommerce.auth"
+    
+    "drfecommerce.product",
+    "drfecommerce.user",
+    
+    
 ]
 
 MIDDLEWARE = [
@@ -67,7 +71,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'drfecommerce.wsgi.application'
 
 
-
+AUTH_USER_MODEL = 'user.User'
 
 
 
