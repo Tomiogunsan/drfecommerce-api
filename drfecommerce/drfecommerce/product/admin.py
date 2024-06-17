@@ -3,6 +3,7 @@ from .models import Brand, Category, Product
 
 ffgjjjkkkk
 hfjdjkekkk
+dhdhjdkdkdkd
 
 
 admin.site.register(Product)
