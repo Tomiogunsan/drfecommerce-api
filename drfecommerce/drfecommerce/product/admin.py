@@ -3,7 +3,7 @@ from .models import Brand, Category, Product
 
 gdghdjdjdk
 dhdjjdkkllss
-hdjdjdkkdk
+
 
 
 
